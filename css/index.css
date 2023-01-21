@@ -1,0 +1,68 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    background-color: tomato;
+}
+.top_handing{
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.watch_area{
+    background-color: white;
+    height: 19rem;
+    width: 19rem;
+    border-radius: 10rem;
+    margin: 10px auto;
+    position: relative;
+}
+.hr_strick {
+    background-color: black;
+    position: absolute;
+    width: 2px;
+    height: 4rem;
+    left: 50%;
+    top: 6rem;
+   transform-origin: bottom;
+}
+.min_strick {
+    background-color: green;
+    position: absolute;
+    width: 2px;
+    height: 6rem;
+    left: 50%;
+    top: 4rem;
+    transform-origin: bottom;
+}
+.sec_strick {
+    background-color: red;
+    position: absolute;
+    width: 1px;
+    height: 7rem;
+    left: 50%;
+    top: 3rem;
+    transform-origin: bottom;
+}
+.count_1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+}
+.count_2{
+    position: absolute;
+    left: 96%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.count_3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3px;
+}
+.count_4{
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
